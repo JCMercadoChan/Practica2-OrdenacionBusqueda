@@ -35,25 +35,25 @@ public class AlgOrdenacionBasicos {
     //Algoritmos de Ordenación Básicos (directos)
 
     private int[] intercambio(int[] datos){
-
+        //TODO implementar algoritmo de intercambio
 
         return datos;
     }
 
     private int[] selectionSort(int[] datos){
-
+        //TODO implementar algoritmo SelectionSort
 
         return datos;
     }
 
     private int[] insertionSort(int[] datos){
-
+        //TODO implementar algoritmo InsertionSort
 
         return datos;
     }
 
     private int[] bubbleSort(int[] datos){
-
+        //TODO implementar algoritmo BubbleSort
 
         return datos;
     }
@@ -61,7 +61,7 @@ public class AlgOrdenacionBasicos {
     //Algoritmos de Ordenación Avanzados (indirectos)
     //ShellSort queda en esta practica para poder hacer uso directo del metodo insertionSort
     private int[] shellSort(int[] datos){
-
+        //TODO implementar algoritmo ShellSort
 
         return datos;
     }

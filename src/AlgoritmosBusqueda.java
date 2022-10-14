@@ -33,12 +33,14 @@ public class AlgoritmosBusqueda {
     //Algoritmos de Busqueda
 
     private int busquedaLineal(int[] datos, int clave){
+        //TODO implementar algoritmo de busqueda lineal
         int indice=-1; //devuelve -1 si el valor clave no se encuentra en el arreglo
 
         return indice;
     }
 
     private int busquedaBinaria(int[] datos, int clave){
+        //TODO implementar algoritmo de busqueda binaria
         int indice=-1; //devuelve -1 si el valor clave no se encuentra en el arreglo
 
         return indice;

@@ -34,19 +34,19 @@ public class AlgOrdenacionAvanzados {
 
 
     private int[] mergeSort(int[] datos){
-
+        //TODO implementar algoritmo MergeSort
 
         return datos;
     }
 
     private int[] quickSortPivIni(int[] datos){
-
+        //TODO implementar algoritmo QuickSort Pivote Inicial
 
         return datos;
     }
 
     private int[] quickSortPivCen(int[] datos){
-
+        //TODO implementar algoritmo QuickSort Pivote Central
 
         return datos;
     }
@@ -54,7 +54,7 @@ public class AlgOrdenacionAvanzados {
     //Algoritmos de Ordenación por urnas (Opcional - Extra)
 
     private int[] radixSort(int[] datos){
-
+        //TODO implementar algoritmo RadixSort (Opcional)
 
         return datos;
     }
