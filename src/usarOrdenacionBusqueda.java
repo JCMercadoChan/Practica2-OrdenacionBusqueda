@@ -26,17 +26,17 @@ public class usarOrdenacionBusqueda {
         int resultadoBusqueda;
 
         switch(algoritmo) {
-            case "Intercambio","SelectionSort","InsertionSort","BubbleSort","ShellSort":
+            case "Intercambio": case "SelectionSort": case "InsertionSort": case "BubbleSort": case "ShellSort":
                 AlgOrdenacionBasicos algoritmosBasicos = new AlgOrdenacionBasicos();
                 //Ejecutar el algoritmo de ordenacion solicitado
                 resultadoOrdenamiento = algoritmosBasicos.ordenar(datos,algoritmo);
                 break;
-            case "MergeSort","QuickSortPivIni","QuickSortPivCen","radixSort":
+            case "MergeSort": case "QuickSortPivIni": case "QuickSortPivCen": case "radixSort":
                 AlgOrdenacionAvanzados algoritmosAvanzados = new AlgOrdenacionAvanzados();
                 //Ejecutar el algoritmo de ordenacion solicitado
                 resultadoOrdenamiento = algoritmosAvanzados.ordenar(datos,algoritmo);
                 break;
-            case "BusquedaLineal","BusquedaBinaria":
+            case "BusquedaLineal": case "BusquedaBinaria":
                 AlgoritmosBusqueda algoritmosBusqueda = new AlgoritmosBusqueda();
                 //Solicitar el valor de la clave que se desea buscar
                 System.out.println("Ingrese el valor clave a buscar: ");
