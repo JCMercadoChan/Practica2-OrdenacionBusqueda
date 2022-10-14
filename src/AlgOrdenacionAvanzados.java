@@ -29,7 +29,7 @@ public class AlgOrdenacionAvanzados {
         System.out.println(algoritmo + " = " + Arrays.toString(datos));
     }
 
-    //Algoritmos de Ordenación Avanzados (indirectos)
+    //Algoritmos de Ordenacion Avanzados (indirectos)
 
 
 
@@ -51,7 +51,7 @@ public class AlgOrdenacionAvanzados {
         return datos;
     }
 
-    //Algoritmos de Ordenación por urnas (Opcional - Extra)
+    //Algoritmos de Ordenacion por urnas (Opcional - Extra)
 
     private int[] radixSort(int[] datos){
         //TODO implementar algoritmo RadixSort (Opcional)

@@ -32,7 +32,7 @@ public class AlgOrdenacionBasicos {
         System.out.println(algoritmo + " = " + Arrays.toString(datos));
     }
 
-    //Algoritmos de Ordenación Básicos (directos)
+    //Algoritmos de Ordenacion Básicos (directos)
 
     private int[] intercambio(int[] datos){
         //TODO implementar algoritmo de intercambio
@@ -58,7 +58,7 @@ public class AlgOrdenacionBasicos {
         return datos;
     }
 
-    //Algoritmos de Ordenación Avanzados (indirectos)
+    //Algoritmos de Ordenacion Avanzados (indirectos)
     //ShellSort queda en esta practica para poder hacer uso directo del metodo insertionSort
     private int[] shellSort(int[] datos){
         //TODO implementar algoritmo ShellSort
