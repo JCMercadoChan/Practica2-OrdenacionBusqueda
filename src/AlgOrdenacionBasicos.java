@@ -32,7 +32,7 @@ public class AlgOrdenacionBasicos {
         System.out.println(algoritmo + " = " + Arrays.toString(datos));
     }
 
-    //Algoritmos de Ordenacion Básicos (directos)
+    //Algoritmos de Ordenacion Basicos (directos)
 
     private int[] intercambio(int[] datos){
         //TODO implementar algoritmo de intercambio
